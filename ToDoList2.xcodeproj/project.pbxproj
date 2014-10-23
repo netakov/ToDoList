@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1051D5AD19F188A400247175 /* XYZToDoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1051D5AC19F188A400247175 /* XYZToDoListTableViewController.swift */; };
+		109370D919F06B3800521413 /* XYZAddToDoItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109370D719F06B3800521413 /* XYZAddToDoItemViewController.swift */; };
+		109370DA19F06B3800521413 /* XYZAddToDoItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 109370D819F06B3800521413 /* XYZAddToDoItemViewController.xib */; };
 		10AAF73D19EF0EDE00F3D098 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AAF73C19EF0EDE00F3D098 /* AppDelegate.swift */; };
 		10AAF73F19EF0EDE00F3D098 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AAF73E19EF0EDE00F3D098 /* ViewController.swift */; };
 		10AAF74219EF0EDE00F3D098 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10AAF74019EF0EDE00F3D098 /* Main.storyboard */; };
@@ -26,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1051D5AC19F188A400247175 /* XYZToDoListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYZToDoListTableViewController.swift; sourceTree = "<group>"; };
+		109370D719F06B3800521413 /* XYZAddToDoItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYZAddToDoItemViewController.swift; sourceTree = "<group>"; };
+		109370D819F06B3800521413 /* XYZAddToDoItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYZAddToDoItemViewController.xib; sourceTree = "<group>"; };
 		10AAF73719EF0EDE00F3D098 /* ToDoList2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10AAF73B19EF0EDE00F3D098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10AAF73C19EF0EDE00F3D098 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +86,9 @@
 				10AAF73C19EF0EDE00F3D098 /* AppDelegate.swift */,
 				10AAF73E19EF0EDE00F3D098 /* ViewController.swift */,
 				10AAF74019EF0EDE00F3D098 /* Main.storyboard */,
+				1051D5AC19F188A400247175 /* XYZToDoListTableViewController.swift */,
+				109370D719F06B3800521413 /* XYZAddToDoItemViewController.swift */,
+				109370D819F06B3800521413 /* XYZAddToDoItemViewController.xib */,
 				10AAF74319EF0EDE00F3D098 /* Images.xcassets */,
 				10AAF74519EF0EDE00F3D098 /* LaunchScreen.xib */,
 				10AAF73A19EF0EDE00F3D098 /* Supporting Files */,
@@ -194,6 +203,7 @@
 			files = (
 				10AAF74219EF0EDE00F3D098 /* Main.storyboard in Resources */,
 				10AAF74719EF0EDE00F3D098 /* LaunchScreen.xib in Resources */,
+				109370DA19F06B3800521413 /* XYZAddToDoItemViewController.xib in Resources */,
 				10AAF74419EF0EDE00F3D098 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,7 +223,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				10AAF73F19EF0EDE00F3D098 /* ViewController.swift in Sources */,
+				109370D919F06B3800521413 /* XYZAddToDoItemViewController.swift in Sources */,
 				10AAF73D19EF0EDE00F3D098 /* AppDelegate.swift in Sources */,
+				1051D5AD19F188A400247175 /* XYZToDoListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +417,7 @@
 				10AAF75819EF0EDE00F3D098 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		10AAF75919EF0EDE00F3D098 /* Build configuration list for PBXNativeTarget "ToDoList2Tests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +426,7 @@
 				10AAF75B19EF0EDE00F3D098 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
